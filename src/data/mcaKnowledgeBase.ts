@@ -1,4 +1,3 @@
-
 export const mcaKnowledgeBase = {
   general: {
     what_is_godaddy_capital: {
@@ -60,7 +59,7 @@ The underwriting process is done by our funding partners and includes only a sof
   
   application_process: {
     approval_time: {
-      keywords: ['how long', 'approval time', 'when will I hear', 'application status'],
+      keywords: ['how long', 'approval time', 'when will I hear', 'application status', 'how fast', 'how quickly', 'quick approval', 'approval timeline', 'how soon approved', 'when approved', 'approval speed', 'fast approval'],
       answer: `**Application Timeline:**
 • **Approval Decision:** Usually within a few hours (approval times may vary case-by-case)
 • **Notification:** You'll be updated via email on any changes in your application, approval, and funding status
@@ -69,7 +68,7 @@ The underwriting process is done by our funding partners and includes only a sof
 The process is designed to be quick and efficient since we already know your business through GoDaddy Payments.`
     },
     funding_time: {
-      keywords: ['receive funds', 'money transfer', 'deposit', 'how fast'],
+      keywords: ['receive funds', 'money transfer', 'deposit', 'how fast', 'funding time', 'when funded', 'how soon funded', 'get money', 'funding timeline', 'money arrives', 'cash deposit', 'funding speed', 'quick funding', 'fast funding', 'how quickly funded', 'when do I get funds', 'funds available'],
       answer: `**Funding Timeline:**
 You should receive the funds in **as little as 24 business hours** after you sign the funding contract.
 
