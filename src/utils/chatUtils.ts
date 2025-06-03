@@ -21,9 +21,19 @@ export const findBestMatch = (userInput: string, knowledgeBase: any): string => 
       
       // Calculate relevance score based on keyword matches
       keywords.forEach((keyword: string) => {
-        if (input.includes(keyword.toLowerCase())) {
-          score += keyword.split(' ').length; // Multi-word keywords get higher scores
+        const keywordLower = keyword.toLowerCase();
+        
+        // Exact phrase match gets highest score
+        if (input.includes(keywordLower)) {
+          score += keyword.split(' ').length * 3;
         }
+        
+        // Individual word matches get lower score
+        keyword.split(' ').forEach(word => {
+          if (input.includes(word.toLowerCase()) && word.length > 2) {
+            score += 1;
+          }
+        });
       });
       
       if (score > highestScore) {

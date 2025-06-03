@@ -48,7 +48,7 @@ Our funding partners (YouLend and Pipe) make the final eligibility determination
 The longer you've been trading with us and the higher your monthly revenue, the better your offers will be.`
     },
     credit_score_impact: {
-      keywords: ['credit score', 'credit check', 'hard pull', 'soft pull', 'collateral'],
+      keywords: ['credit score', 'credit check', 'hard pull', 'soft pull', 'collateral', 'credit impact', 'hurt credit', 'affect credit', 'credit inquiry', 'credit report'],
       answer: `**Good news! Applying for GoDaddy Capital MCA:**
 • **No collateral needed**
 • **Only requires a soft credit pull** - no impact on your credit score
@@ -95,7 +95,7 @@ The funds will be deposited into the same bank account where your GoDaddy Paymen
 Your specific offers will be clearly displayed when you apply, showing the exact terms available to you.`
     },
     fees_and_rates: {
-      keywords: ['fees', 'interest', 'cost', 'rate', 'percentage'],
+      keywords: ['fees', 'interest', 'cost', 'rate', 'percentage', 'interest rate', 'apr', 'annual percentage rate', 'charges', 'no interest'],
       answer: `**GoDaddy Capital MCA Fees:**
 • **Only a flat fee** - No interest rates
 • **No additional charges** - The flat fee is agreed upon at origination
