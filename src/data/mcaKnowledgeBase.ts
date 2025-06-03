@@ -1,3 +1,4 @@
+
 export const mcaKnowledgeBase = {
   general: {
     what_is_godaddy_capital: {
@@ -58,6 +59,40 @@ The underwriting process is done by our funding partners and includes only a sof
   },
   
   application_process: {
+    how_to_apply: {
+      keywords: ['how to apply', 'application process', 'apply for', 'process for applying', 'steps to apply', 'how do I apply', 'application steps', 'applying process', 'submit application', 'start application'],
+      answer: `**GoDaddy Capital Application Process:**
+
+**Step 1: Submit Application**
+• Log into your GoDaddy Commerce Home Dashboard
+• Navigate to the GoDaddy Capital section
+• Complete the simple application form
+
+**Step 2: Application Review**
+• Our funding partners (YouLend and Pipe) review your application
+• They assess your business performance and payment history
+• Usually completed within a few hours
+
+**Step 3: Offers Generated**
+• If approved, you'll receive personalized offers
+• Offers are based on your sales history and business profile
+• You'll see exact terms, amounts, and fees
+
+**Step 4: Offer Accepted**
+• Review available offers carefully
+• Choose the offer that best fits your needs
+• Accept your preferred offer online
+
+**Step 5: Contract Signed**
+• Review and sign the funding contract
+• All terms are clearly outlined
+• Electronic signature process
+
+**Step 6: Funding**
+• Funds deposited in as little as 24 business hours
+• Money goes to your existing GoDaddy Payments bank account
+• You're ready to use the funds for your business needs`
+    },
     approval_time: {
       keywords: ['how long', 'approval time', 'when will I hear', 'application status', 'how fast', 'how quickly', 'quick approval', 'approval timeline', 'how soon approved', 'when approved', 'approval speed', 'fast approval'],
       answer: `**Application Timeline:**
@@ -75,6 +110,40 @@ You should receive the funds in **as little as 24 business hours** after you sig
 **Note:** This timeline is subject to your bank's hold policies, which may cause delays depending on your financial institution's procedures.
 
 The funds will be deposited into the same bank account where your GoDaddy Payments payouts are currently deposited.`
+    },
+    application_status: {
+      keywords: ['application status', 'status of application', 'current status', 'where is my application', 'application progress', 'check status', 'status update', 'what stage', 'application stage', 'track application'],
+      answer: `**Check Your Application Status:**
+
+Your GoDaddy Capital application goes through these stages:
+
+**1. Submit Application** ✓
+• Application submitted and received
+
+**2. Application Review** 🔄
+• Our funding partners are reviewing your business profile
+• This usually takes a few hours
+
+**3. Offers Generated** 📋
+• If approved, personalized offers are created
+• You'll receive email notification with available offers
+
+**4. Offer Accepted** ✅
+• You've chosen and accepted an offer
+• Ready to proceed to contract signing
+
+**5. Contract Signed** 📝
+• Funding contract has been signed
+• Final step before funding
+
+**6. Funding** 💰
+• Funds deposited to your account
+• Usually within 24 business hours after contract signing
+
+**To check your current status:**
+• Log into your GoDaddy Payments dashboard
+• Select "Capitals" from the menu
+• View your application progress and current stage`
     }
   },
   
